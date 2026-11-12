@@ -38,11 +38,6 @@ body {
 }
 
 .top-sec {
-    display: flex;
-    background-color: white;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
     gap: 10px;
     position: sticky;
     top: 0;
@@ -55,9 +50,10 @@ body {
     font-size: 1.2rem;
     outline: none;
     width: 100%;
+    margin: 0 0 10px 0;
 }
 
-#btn {
+.btn {
     background-color: orangered;
     color: white;
     border-radius: 10px;
@@ -68,10 +64,25 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-#btn:hover {
+.btn:hover {
     color: orangered;
     border: 1px solid orangered;
     background-color: transparent;
+}
+#clearAll{
+    background-color: red;
+    
+}
+#clearAll:hover{
+    color: red;
+    border: 1px solid red;
+    background-color: transparent;
+    
+}
+#clearAll:active{
+    background-color: red;
+    color: white;
+    
 }
 
 #btn:active {
